@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/svg+xml" href="/static/todo-list.svg">
+
+    <title>ToDo!</title>
+</head>
+
+<body>
+    <header class="border-bottom">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="/static/todo-list.svg" height="50px" alt="ToDo Logo" style="marginRight: 10px" />
+                    <span id="app-name" class="h2 align-middle">ToDo!</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid pt-4 pb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                {{{body}}}
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="sticky-bottom pt-3 border-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <address>
+                        <h6>Contact us</h6>
+                        <p><strong>ToDo!</strong> <br>
+                            Av. dos Estados, 5001 <br>
+                            Santo André, SP
+                        </p>
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <h6>Sitemap</h6>
+                    <ul id="sitemap" class="p-0">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

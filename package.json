@@ -1,0 +1,35 @@
+{
+  "name": "todo-client-spa",
+  "version": "1.0.0",
+  "description": "Código-base para a aula",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./static/bootstrap.min.css",
+    "start": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/express-handlebars": "^6.0.2",
+    "@types/joi": "^17.2.2",
+    "@types/mongodb": "^4.0.6",
+    "bootstrap": "^5.3.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "joi": "^17.13.3",
+    "mongodb": "^6.16.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0"
+  }
+}

@@ -1,0 +1,16 @@
+<p><a href="/">Home</a></p>
+
+<p>
+{{#if (equals code 'item_update') }}
+    Failed to update the item.
+{{/if}}
+{{#if (equals code 'item_remove') }}
+    Failed to remove the item.
+{{/if}}
+{{#if (equals code 'validation') }}
+    Validation error. Please check the input fields.
+{{/if}}
+{{#if (equals code 'exception') }}
+    An internal failure occurred. Our developers have been notified.
+{{/if}}
+</p>

@@ -1,0 +1,7 @@
+<form id="form-item" method="post">
+    <ul id="tab-content" class="list-group list-group-flush">
+        {{#each items as |item|}}
+            {{> list-item item=item}}
+        {{/each}}
+    </ul>
+</form>
