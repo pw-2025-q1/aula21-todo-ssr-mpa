@@ -83,4 +83,18 @@ O container inclui as seguintes dependências:
 4. Execute o comando `npm run dev` para iniciar o servidor de desenvolvimento.
 5. Acesse a aplicação no navegador em `http://localhost:3000`.
 
+## Populando o Banco de Dados Inicialmente
+
+Para popular o banco de dados com dados iniciais, você pode utilizar o script `populate.ts` localizado na pasta `scripts/`.
+
+### Como Executar o Script de População
+
+1. Certifique-se de que o banco de dados está configurado e acessível.
+2. Execute o seguinte comando no terminal:
+   ```bash
+   npm run ts-node scripts/populate.ts
+   ```
+
+Este script irá inserir dados de exemplo no banco de dados, facilitando o teste e a visualização da aplicação.
+
 

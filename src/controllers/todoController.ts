@@ -123,7 +123,7 @@ export class TodoController {
         if (!result) {
             throw new RemoveError(`Failed to remove the item with ID ${req.params.id}.`);
         }
-        res.render('success', { code: 'item_remove_success' });
+        res.render('success', { code: 'item_remove' });
     }
 
 
